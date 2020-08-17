@@ -1,0 +1,29 @@
+{
+  "name": "ink-cli-app",
+  "version": "0.0.0",
+  "license": "MIT",
+  "bin": "./build/cli.js",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "pastel build",
+    "dev": "pastel dev",
+    "prepare": "pastel build"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ink": "^3.0.3",
+    "ink-spinner": "^4.0.0",
+    "pastel": "^1.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "recoil": "^0.0.10"
+  },
+  "devDependencies": {
+    "@types/prop-types": "^15.7.3",
+    "@types/react": "^16.9.46",
+    "typescript": "^3.9.7"
+  }
+}
